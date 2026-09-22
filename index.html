@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Gaddiel Irakoze — Software Engineering student focused on data science, machine learning, and AI." />
+  <meta name="theme-color" content="#08131f" />
+  <meta property="og:title" content="Gaddiel Irakoze | Data Science & ML Portfolio" />
+  <meta property="og:description" content="Selected machine learning, MLOps, computer vision, and data projects by Gaddiel Irakoze." />
+  <meta property="og:type" content="website" />
+  <title>Gaddiel Irakoze | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Gaddiel Irakoze home">
+        <span class="brand-mark">GI</span>
+        <span>Gaddiel Irakoze</span>
+      </a>
+      <button class="menu-btn" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero section-pad">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Open to graduate, research & internship opportunities</div>
+          <h1>Software engineering,<br><span>data science & machine learning.</span></h1>
+          <p class="hero-lead">I’m <strong>Gaddiel Irakoze</strong>, a Software Engineering student at African Leadership University, specializing in Machine Learning. I'm passionate about building technology solutions that address community challenges and support economic growth.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+            <a class="btn btn-secondary" href="resume.html" target="_blank" rel="noopener">View resume <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta" aria-label="Profile highlights">
+            <div><strong>4.38 / 5</strong><span>Cumulative GPA</span></div>
+            <div><strong>2027</strong><span>Expected graduation</span></div>
+            <div><strong>Kigali</strong><span>Rwanda</span></div>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap reveal delay-1">
+          <div class="photo-backdrop"></div>
+          <figure class="hero-photo-card">
+            <img src="assets/gaddiel-profile.webp" alt="Portrait of Gaddiel Irakoze" decoding="async" />
+            <figcaption>
+              <span>Currently focused on</span>
+              <strong>ML systems • Data science • Applied AI</strong>
+            </figcaption>
+          </figure>
+          <div class="floating-chip chip-one">Python</div>
+          <div class="floating-chip chip-two">TensorFlow</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="container split-section">
+        <div class="section-kicker reveal">01 / About</div>
+        <div class="about-content reveal delay-1">
+          <h2>I like working where <span>software, data and real-world impact</span> meet.</h2>
+          <div class="about-columns">
+            <p>I’m an aspiring Data Scientist and Software Engineering student with foundations in Python, R, SQL, machine learning, statistical analysis, and data visualization. My work spans time-series forecasting, computer vision, MLOps, analytics, and product experimentation.</p>
+            <p>I’m especially interested in building reliable ML systems, explaining results clearly, and connecting technical decisions to useful outcomes. I also bring project-management and business-value training alongside my technical coursework.</p>
+          </div>
+          <div class="focus-row" aria-label="Areas of focus">
+            <span>Machine Learning</span><span>Data Science</span><span>Deep Learning</span><span>MLOps</span><span>Analytics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <div class="section-kicker">02 / Projects</div>
+            <h2>Work that shows how I think, build and evaluate.</h2>
+          </div>
+          <p>Three selected projects spanning time-series forecasting, production-oriented deep learning, and real-time computer vision.</p>
+        </div>
+
+        <article class="project-feature reveal">
+          <div class="project-visual visual-forecast" aria-hidden="true">
+            <svg viewBox="0 0 760 430" role="img">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1"><stop stop-color="#62e7c5"/><stop offset="1" stop-color="#7aa7ff"/></linearGradient>
+                <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+              </defs>
+              <g class="chart-grid">
+                <path d="M80 75H690M80 140H690M80 205H690M80 270H690M80 335H690"/>
+                <path d="M120 55V360M220 55V360M320 55V360M420 55V360M520 55V360M620 55V360"/>
+              </g>
+              <path class="area" d="M85 300 C130 270 155 290 190 235 S270 195 305 240 S365 305 405 228 S480 150 520 190 S590 255 690 116 L690 360 L85 360 Z" />
+              <path class="line" d="M85 300 C130 270 155 290 190 235 S270 195 305 240 S365 305 405 228 S480 150 520 190 S590 255 690 116" stroke="url(#g1)" filter="url(#glow)"/>
+              <circle cx="690" cy="116" r="7" class="chart-dot"/>
+              <rect x="495" y="77" width="170" height="58" rx="14" class="chart-label-bg"/>
+              <text x="515" y="101" class="chart-label-small">HELD-OUT TEST</text>
+              <text x="515" y="123" class="chart-label-big">7.08% best MAPE</text>
+            </svg>
+            <div class="visual-badge">RNN • GRU • LSTM</div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">Project 01</div>
+            <h3>Milan Mobile Internet Traffic Forecasting</h3>
+            <p>Compared recurrent neural network architectures for one-step-ahead internet-traffic forecasting across high-traffic geographical areas of Milan using 10-minute telecommunications data.</p>
+            <div class="metric-grid">
+              <div><strong>144</strong><span>observations / 24h input</span></div>
+              <div><strong>3</strong><span>high-traffic grid areas</span></div>
+              <div><strong>7.08%</strong><span>best held-out MAPE</span></div>
+            </div>
+            <div class="tags"><span>Python</span><span>TensorFlow</span><span>Keras</span><span>pandas</span><span>scikit-learn</span><span>Time Series</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Gaddy01/Time-Series-Forcasting" target="_blank" rel="noopener">GitHub repository ↗</a>
+              <a href="https://drive.google.com/file/d/1jmcS0mlG3AqNaOU6c-vLHk1NgRH6qXg7/view?usp=sharing" target="_blank" rel="noopener">Project presentation video ↗</a>
+              <a href="https://docs.google.com/document/d/1GnOnEtGckwDOdJhEp81oR4MeClpOC-Ag/edit?usp=sharing&ouid=108586448699878225906&rtpof=true&sd=true" target="_blank" rel="noopener">Project report ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature project-reverse reveal">
+          <div class="project-visual visual-pneumo" aria-hidden="true">
+            <svg viewBox="0 0 760 430" role="img">
+              <defs>
+                <radialGradient id="lungGlow"><stop offset="0" stop-color="#6bd9ff" stop-opacity=".45"/><stop offset="1" stop-color="#6bd9ff" stop-opacity="0"/></radialGradient>
+                <linearGradient id="scanLine" x1="0" x2="1"><stop stop-color="#55dfbd" stop-opacity="0"/><stop offset=".5" stop-color="#55dfbd"/><stop offset="1" stop-color="#55dfbd" stop-opacity="0"/></linearGradient>
+              </defs>
+              <circle cx="380" cy="210" r="170" fill="url(#lungGlow)"/>
+              <path class="body-line" d="M379 70c-29 0-51 20-51 51v46c-20-30-56-55-91-44-42 13-66 68-64 127 2 55 26 111 70 116 41 4 76-31 92-69l44-103 45 103c16 38 51 73 92 69 44-5 68-61 70-116 2-59-22-114-64-127-35-11-71 14-91 44v-46c0-31-22-51-52-51z"/>
+              <path class="lung-fill" d="M324 172c-31-38-67-52-92-32-34 27-40 121-5 177 17 27 49 31 69 7 18-22 27-62 28-152zM436 172c31-38 67-52 92-32 34 27-40 121 5 177 17 27 49 31 69 7 18-22 27-62 28-152z"/>
+              <path d="M177 244H583" stroke="url(#scanLine)" stroke-width="5"/>
+              <circle cx="505" cy="229" r="17" class="scan-hit"/>
+              <rect x="505" y="67" width="150" height="62" rx="14" class="chart-label-bg"/>
+              <text x="525" y="92" class="chart-label-small">LOAD TEST</text>
+              <text x="525" y="114" class="chart-label-big">2,050 • 0% failed</text>
+            </svg>
+            <div class="visual-badge">MobileNetV2 • FastAPI</div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">Project 02</div>
+            <h3>PneumoVision</h3>
+            <p>An end-to-end MLOps application for pneumonia detection from chest X-rays, covering transfer learning, threshold optimization, API development, retraining, deployment, Docker support and load testing.</p>
+            <div class="metric-grid">
+              <div><strong>5,863</strong><span>chest X-ray images</span></div>
+              <div><strong>0.78</strong><span>optimized threshold</span></div>
+              <div><strong>0%</strong><span>load-test failure rate</span></div>
+            </div>
+            <div class="tags"><span>TensorFlow</span><span>MobileNetV2</span><span>FastAPI</span><span>Streamlit</span><span>Docker</span><span>Locust</span></div>
+            <div class="project-links">
+              <a href="https://github.com/Gaddy01/MLPipeline-Summative-MLOP" target="_blank" rel="noopener">GitHub repository ↗</a>
+              <a href="https://www.youtube.com/watch?v=96DtQLmlbhQ" target="_blank" rel="noopener">Demo video ↗</a>
+              <a href="https://pneumonia-ui-zqlo.onrender.com" target="_blank" rel="noopener">Live app ↗</a>
+              <a href="https://pneumovision-kkwn.onrender.com" target="_blank" rel="noopener">API ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-feature reveal">
+          <div class="project-visual visual-handy" aria-hidden="true">
+            <svg viewBox="0 0 760 430" role="img">
+              <g class="landmark-lines">
+                <path d="M369 330L337 270L321 218L302 163"/>
+                <path d="M337 270L361 204L370 143L374 91"/>
+                <path d="M351 270L401 205L419 150L430 105"/>
+                <path d="M365 280L440 232L472 190L497 150"/>
+                <path d="M369 300L459 287L505 269L543 244"/>
+                <path d="M337 270L351 270L365 280L369 300"/>
+              </g>
+              <g class="landmarks">
+                <circle cx="369" cy="330" r="9"/><circle cx="337" cy="270" r="8"/><circle cx="321" cy="218" r="7"/><circle cx="302" cy="163" r="7"/>
+                <circle cx="361" cy="204" r="7"/><circle cx="370" cy="143" r="7"/><circle cx="374" cy="91" r="7"/>
+                <circle cx="401" cy="205" r="7"/><circle cx="419" cy="150" r="7"/><circle cx="430" cy="105" r="7"/>
+                <circle cx="440" cy="232" r="7"/><circle cx="472" cy="190" r="7"/><circle cx="497" cy="150" r="7"/>
+                <circle cx="459" cy="287" r="7"/><circle cx="505" cy="269" r="7"/><circle cx="543" cy="244" r="7"/>
+              </g>
+              <rect x="85" y="82" width="188" height="76" rx="16" class="chart-label-bg"/>
+              <text x="108" y="110" class="chart-label-small">REAL-TIME RECOGNITION</text>
+              <text x="108" y="139" class="chart-label-big">90% accuracy</text>
+              <path class="speech-line" d="M473 83h122c26 0 47 21 47 47v38c0 26-21 47-47 47h-40l-27 26v-26h-55c-26 0-47-21-47-47v-38c0-26 21-47 47-47z"/>
+              <text x="493" y="142" class="speech-text">HELLO</text>
+            </svg>
+            <div class="visual-badge">Computer Vision • Accessibility</div>
+          </div>
+          <div class="project-info">
+            <div class="project-number">Project 03</div>
+            <h3>HandyAI</h3>
+            <p>A webcam-based sign-language recognition system that detects hand gestures, converts them into text, and speaks the resulting text aloud. Built during a 48-hour team hackathon.</p>
+            <div class="metric-grid">
+              <div><strong>30</strong><span>recognized gestures</span></div>
+              <div><strong>90%</strong><span>recognition accuracy</span></div>
+              <div><strong>4</strong><span>team members</span></div>
+            </div>
+            <div class="tags"><span>Python</span><span>OpenCV</span><span>MediaPipe</span><span>Random Forest</span><span>scikit-learn</span><span>gTTS</span></div>
+            <div class="project-award">🏆 Awarded <strong>“The Most Innovative Project of 2026”</strong> among 10 competing teams.</div>
+            <div class="project-links">
+              <a href="https://github.com/Gaddiel05/Cognition-Crew-Project" target="_blank" rel="noopener">GitHub repository ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience section-pad" id="experience">
+      <div class="container split-section">
+        <div class="section-kicker reveal">03 / Experience</div>
+        <div class="timeline reveal delay-1">
+          <article class="timeline-item">
+            <div class="timeline-date">Jan 2026 — Present</div>
+            <div class="timeline-body">
+              <h3>Co-founder <span>• Nguzo Corp.</span></h3>
+              <p>Designed and analyzed marketing experiments comparing ambassador and contractor-based user-acquisition strategies using performance metrics and cost analysis.</p>
+              <p class="outcome">Outcome: reduced cost per acquired user to <strong>one-third</strong> of its original value by identifying the most cost-effective strategy.</p>
+            </div>
+          </article>
+          <article class="timeline-item featured-role">
+            <div class="timeline-date">Nov 2025 — Present</div>
+            <div class="timeline-body">
+              <h3>Co-Founder &amp; President <span>• Data &amp; Machine Learning Club, ALU</span></h3>
+              <p>Co-founded and lead a student-led community focused on Data Science, Machine Learning and AI at African Leadership University. I facilitate hands-on coding sessions, technical workshops, research-paper discussions and collaborative projects while mentoring peers in data analysis and applied ML.</p>
+              <p class="outcome">Leadership focus: Peer learning,<strong> technical mentorship and community building</strong> for students preparing for research, internships, hackathons and industry opportunities.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Jan 2026</div>
+            <div class="timeline-body">
+              <h3>NextGen Builders Hackathon <span>• Participant</span></h3>
+              <p>Led a 4-member team to co-develop a real-time ML sign-language system within 48 hours, reaching 90% gesture-recognition accuracy.</p>
+              <p class="outcome">Recognition: <strong>Most Innovative Project of 2026</strong>.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">Jul 2025</div>
+            <div class="timeline-body">
+              <h3>Fresh Harvest 365 Hackathon <span>• Participant</span></h3>
+              <p>Integrated, cleaned and validated six heterogeneous datasets containing 120,000+ records, then developed an interactive Power BI dashboard for agriculture and public-health analysis.</p>
+              <p class="outcome">Reported impact: reduced stakeholder interpretation time by <strong>60%</strong>.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section-pad" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><div class="section-kicker">04 / Skills</div><h2>A technical toolkit built around data and ML.</h2></div>
+          <p>Grouped by the work I use them for rather than as a wall of logos.</p>
+        </div>
+        <div class="skills-grid reveal delay-1">
+          <article><div class="skill-index">A</div><h3>Programming & tools</h3><p>Python, R, SQL, Git & GitHub, Jupyter, VS Code</p></article>
+          <article><div class="skill-index">B</div><h3>Machine learning</h3><p>Regression, classification, clustering, PCA, scikit-learn, TensorFlow</p></article>
+          <article><div class="skill-index">C</div><h3>Data handling</h3><p>Pandas, NumPy, advanced SQL, joins, indexing, window functions</p></article>
+          <article><div class="skill-index">D</div><h3>Visualization & reporting</h3><p>Power BI, Tableau, Matplotlib, Seaborn</p></article>
+          <article><div class="skill-index">E</div><h3>Statistical analysis</h3><p>Hypothesis testing, regression analysis, model evaluation</p></article>
+          <article><div class="skill-index">F</div><h3>Ways of working</h3><p>Analytical thinking, cross-cultural collaboration, curiosity & eagerness to learn</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="education section-pad" id="education">
+      <div class="container education-grid">
+        <div class="reveal">
+          <div class="section-kicker">05 / Education</div>
+          <h2>Learning with a clear direction toward ML and data science.</h2>
+          <div class="edu-card primary-card">
+            <div class="edu-top"><span>African Leadership University</span><span>Expected Jul 2027</span></div>
+            <h3>Bachelor of Software Engineering</h3>
+            <div class="edu-details"><span>Specialization: Machine Learning</span><span>GPA: 4.38 / 5</span></div>
+          </div>
+        </div>
+        <div class="credentials reveal delay-1">
+          <h3>Professional learning & certificates</h3>
+          <div class="credential-list">
+            <div><strong>IBM Data Science Specialization</strong><span>Coursera • Jan–Apr 2025</span></div>
+            <div><strong>Business Value & Project Management Specialization</strong><span>Coursera • Jan–Jun 2026</span></div>
+            <div><strong>Neural Networks and Deep Learning</strong><span>DeepLearning.AI</span></div>
+            <div><strong>Python for ML and Data Science</strong><span>Pieran Training</span></div>
+            <div><strong>R Programming</strong><span>SuperDataScience</span></div>
+          </div>
+          <div class="languages"><span>Languages</span><strong>English — Fluent</strong><strong>French — Fluent</strong><strong>Kirundi — Native</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-card reveal">
+        <div>
+          <div class="section-kicker">06 / Contact</div>
+          <h2>Interested in graduate studies, research, internships and meaningful technical collaborations.</h2>
+          <p>The fastest way to reach me is by email. You can also explore both of my GitHub profiles or connect with me on LinkedIn.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-main" href="mailto:gaddielirakoze@gmail.com"><span class="contact-link-label"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.75h17a1.75 1.75 0 0 1 1.75 1.75v9a1.75 1.75 0 0 1-1.75 1.75h-17A1.75 1.75 0 0 1 1.75 16.5v-9A1.75 1.75 0 0 1 3.5 5.75Zm.12 1.5L12 13.02l8.38-5.77H3.62Zm17.13 1.43-8.32 5.73a.75.75 0 0 1-.86 0L3.25 8.68v7.82c0 .14.11.25.25.25h17a.25.25 0 0 0 .25-.25V8.68Z"/></svg><span>gaddielirakoze@gmail.com</span></span><span>↗</span></a>
+          <a href="https://www.linkedin.com/in/irakoze-gaddiel-9075581b8" target="_blank" rel="noopener"><span class="contact-link-label"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.2 8.05H2.8V21h3.4V8.05ZM4.5 2.5A2 2 0 1 0 4.5 6.5a2 2 0 0 0 0-4ZM21.2 13.57c0-3.9-2.08-5.72-4.86-5.72-2.24 0-3.24 1.23-3.8 2.1V8.05H9.15V21h3.4v-6.41c0-1.69.32-3.33 2.42-3.33 2.07 0 2.1 1.94 2.1 3.44V21h3.4l.73-7.43Z"/></svg><span>LinkedIn</span></span><span>↗</span></a>
+          <a href="https://github.com/Gaddy01" target="_blank" rel="noopener"><span class="contact-link-label"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.91-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.66.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.94a9.3 9.3 0 0 1 2.5.35c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.59.69.49A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/></svg><span>GitHub · Gaddy01</span></span><span>↗</span></a>
+          <a href="https://github.com/Gaddiel05" target="_blank" rel="noopener"><span class="contact-link-label"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C6.48 2 2 6.58 2 12.23c0 4.52 2.87 8.35 6.84 9.71.5.1.68-.22.68-.49 0-.24-.01-1.05-.01-1.91-2.78.62-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.86.09-.66.35-1.12.64-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.3 9.3 0 0 1 12 6.94a9.3 9.3 0 0 1 2.5.35c1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.35 4.8-4.58 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.59.69.49A10.25 10.25 0 0 0 22 12.23C22 6.58 17.52 2 12 2Z"/></svg><span>GitHub · Gaddiel05</span></span><span>↗</span></a>
+          <a href="resume.html" target="_blank" rel="noopener"><span class="contact-link-label"><svg class="contact-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2.5h7.2L19 8.3V21.5H6V2.5Zm8 1.8V8h3.7L14 4.3ZM8.5 12h8v1.5h-8V12Zm0 3.5h8V17h-8v-1.5Z"/></svg><span>Resume PDF</span></span><span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>Gaddiel Irakoze</strong><span>Software Engineering • Data Science • Machine Learning</span></div>
+      <div>© <span id="year"></span> Gaddiel Irakoze</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
